@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "carno-keyboard": "/components/carno-keyboard/carno-keyboard"
+  }
+}

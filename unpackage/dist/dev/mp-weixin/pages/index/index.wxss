@@ -1,0 +1,26 @@
+.content.data-v-9e0dd63e {
+  height: 100vh;
+  width: 100vw;
+  background-color: #F1F1F1;
+}
+.input-cell.data-v-9e0dd63e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #F1F1F1;
+  background-color: #FFFFFF;
+  font-size: 14px;
+}
+.input-cell .ainput.data-v-9e0dd63e {
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 550rpx;
+}
+.input-cell .label.data-v-9e0dd63e {
+  padding-left: 20rpx;
+  width: 200rpx;
+}
+

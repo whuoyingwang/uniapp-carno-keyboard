@@ -1,0 +1,168 @@
+.cell.data-v-9bda2862 {
+  font-size: 32rpx;
+  color: #353535;
+  height: 76rpx;
+  width: 64rpx;
+  line-height: 76rpx;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 10rpx;
+  margin-bottom: 20rpx;
+  -webkit-box-shadow: 0 3rpx 2rpx 0 gray;
+          box-shadow: 0 3rpx 2rpx 0 gray;
+  border-radius: 5rpx;
+  font-weight: 600;
+}
+.cell.data-v-9bda2862:active {
+  background-color: #d8d8d8;
+}
+.mask.data-v-9bda2862 {
+  position: absolute;
+  z-index: 50;
+  height: 5000px;
+  width: 750rpx;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.5;
+}
+.keyboardbox.data-v-9bda2862 {
+  background-color: #dddddd;
+  position: fixed;
+  z-index: 52;
+  left: 0;
+  bottom: 0rpx;
+  width: 100%;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.keyboardbox .keyboard.data-v-9bda2862 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.keyboardbox .keyboard .keyboard-cell.data-v-9bda2862 {
+  font-size: 32rpx;
+  color: #353535;
+  height: 76rpx;
+  width: 64rpx;
+  line-height: 76rpx;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 10rpx;
+  margin-bottom: 20rpx;
+  -webkit-box-shadow: 0 3rpx 2rpx 0 gray;
+          box-shadow: 0 3rpx 2rpx 0 gray;
+  border-radius: 5rpx;
+  font-weight: 600;
+}
+.keyboardbox .keyboard .keyboard-cell.data-v-9bda2862:active {
+  background-color: #d8d8d8;
+}
+.keyboardbox .keyboard .tools.data-v-9bda2862 {
+  width: 225rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.keyboardbox .keyboard .tools .tools-c.data-v-9bda2862 {
+  font-size: 32rpx;
+  color: #353535;
+  height: 76rpx;
+  width: 64rpx;
+  line-height: 76rpx;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 10rpx;
+  margin-bottom: 20rpx;
+  -webkit-box-shadow: 0 3rpx 2rpx 0 gray;
+          box-shadow: 0 3rpx 2rpx 0 gray;
+  border-radius: 5rpx;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.keyboardbox .keyboard .tools .tools-c.data-v-9bda2862:active {
+  background-color: #d8d8d8;
+}
+.keyboardbox .keyboard .tools .tools-c .del-img.data-v-9bda2862 {
+  height: 66rpx;
+  width: 75rpx;
+}
+.keyboardbox .switch.data-v-9bda2862 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 20rpx;
+}
+.keyboardbox .switch .keyboard-cell.data-v-9bda2862 {
+  font-size: 32rpx;
+  color: #353535;
+  height: 76rpx;
+  width: 64rpx;
+  line-height: 76rpx;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 10rpx;
+  margin-bottom: 20rpx;
+  -webkit-box-shadow: 0 3rpx 2rpx 0 gray;
+          box-shadow: 0 3rpx 2rpx 0 gray;
+  border-radius: 5rpx;
+  font-weight: 600;
+  width: 140rpx;
+  margin-right: 10rpx;
+  margin-left: 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.keyboardbox .switch .keyboard-cell.data-v-9bda2862:active {
+  background-color: #d8d8d8;
+}
+.keyboardbox .switch .keyboard-cell .active.data-v-9bda2862 {
+  color: #4CD964;
+}
+.top.data-v-9bda2862 {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
