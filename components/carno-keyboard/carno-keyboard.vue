@@ -16,7 +16,7 @@
 				</template>
 				<view class="tools">
 					<view class="tools-c" @click="delHandle">
-						<image src="../../static/delete.png" class="del-img" mode="aspectFit"></image>
+						<view class="confirm">删除</view>
 					</view>
 					<view class="tools-c" @click="confirm">
 						<view class="confirm">确认</view>
@@ -67,13 +67,13 @@
 			},
 			choose(item) {
 				// console.log('选择', item)
-				this.$emit('onInput', item)
+				this.$emit('kInput', item)
 			},
 			delHandle() {
-				this.$emit('onDelete')
+				this.$emit('kDelete')
 			},
 			confirm() {
-				this.$emit('onConfirm')
+				this.$emit('kConfirm')
 				this.close('mask')
 			},
 			open() {
@@ -90,7 +90,7 @@
 				setTimeout(() => {
 					this.show = false
 					this.swIndex = true // 输入框恢复中文选择
-					this.$emit('onClose')
+					this.$emit('kClose')
 				}, 200)
 			}
 		}
@@ -108,7 +108,9 @@
 		background-color: #fff;
 		margin-left: 10rpx;
 		margin-bottom: 20rpx;
-		box-shadow: 0 3rpx 2rpx 0 gray;
+		box-shadow: 1rpx 3rpx 2rpx 1rpx gray;
+    border: 1rpx solid #C8C7CC;
+    box-sizing: border-box;
 		border-radius: 5rpx;
 		font-weight: 600;
 		
@@ -130,7 +132,7 @@
 	}
 	
 	.keyboardbox{
-		background-color: #dddddd;
+		background-color: #f0f0f0;
 		position: fixed;
 		z-index: 52;
 		left: 0;
@@ -152,17 +154,18 @@
 				display: flex;
 				position: absolute;
 				bottom: 0;
-				right: 0;
+				right: 5rpx;
 				.tools-c {
 					.cell();
+          background-color: #d3d3d3;
 					display: flex;
 					width: 100rpx;
 					align-items: center;
 					justify-content: center;
-					.del-img {
-						height: 66rpx;
-						width: 75rpx;
-					}
+					
+          .confirm{
+            // color: #4CD964;
+          }
 				}
 			}
 		}

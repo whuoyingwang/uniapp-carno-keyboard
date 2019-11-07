@@ -9,7 +9,7 @@
 			<input :value="carNo" disabled @click="showCarNo" placeholder="请输入车牌" class="ainput"/>
 		</view>
 
-		<carnoKeyboard :showKeyboard.sync="modalShow" @onInput="onInput" @onDelete="onDelete" @onConfirm="onConfirm" @onClose="onClose"></carnoKeyboard>
+		<carnoKeyboard :showKeyboard.sync="modalShow" @kInput="onInput" @kDelete="onDelete" @kConfirm="onConfirm" @kClose="onClose"></carnoKeyboard>
 	</view>
 </template>
 
