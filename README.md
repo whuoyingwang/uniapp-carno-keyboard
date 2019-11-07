@@ -1,2 +1,2 @@
 # uniapp-carno-keyboard
-carno-keyboard for uniapp
+uniapp框架下的自定义车牌键盘插件
